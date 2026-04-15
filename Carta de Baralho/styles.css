@@ -1,0 +1,39 @@
+.card{
+  width: 25%;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid black;
+  padding: 10px;
+  background-color: rgb(247, 241, 241);
+  
+}
+
+#playing-cards{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.left{
+  align-self: flex-start;
+  color: red;
+  font-size: 25px;
+
+}
+
+.middle{
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  color: red;
+  font-size: 40px;
+  
+}
+
+.right{
+  align-self: flex-end;
+  color: red;
+  font-size: 25px;
+}
